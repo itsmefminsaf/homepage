@@ -12,3 +12,51 @@ body {
   background: radial-gradient(#353545, black);
   color: wheat;
 }
+
+.welcome {
+  width: 30%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.welcome h1 {
+  font-size: 2.9rem;
+}
+
+.welcome p {
+  font-size: 2rem;
+}
+
+.search {
+  position: absolute;
+  width: 75%;
+  height: 7vh;
+  background-color: antiquewhite;
+  border-radius: 3.5vh;
+  display: flex;
+  align-items: center;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search .source {
+  width: 15%;
+  height: 7vh;
+  background: none;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.search .term {
+  width: 85%;
+  background: none;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
