@@ -23,7 +23,7 @@ body {
 }
 
 .welcome h1 {
-  font-size: 2.9rem;
+  font-size: 2.8rem;
 }
 
 .welcome p {
@@ -32,15 +32,15 @@ body {
 
 .search {
   position: absolute;
-  width: 75%;
-  height: 7vh;
+  width: 65%;
+  height: 10vh;
   background-color: antiquewhite;
   border-radius: 3.5vh;
   display: flex;
   align-items: center;
-  top: 70%;
+  bottom: 30vh;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
 }
 
 .search .source {
@@ -59,4 +59,29 @@ body {
   outline: none;
   border: none;
   padding-left: 10px;
+  font-size: 1.6rem;
+}
+
+.favs {
+  position: absolute;
+  bottom: 9vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.favs .fav {
+  height: 90%;
+  aspect-ratio: 1;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+}
+
+.favs .fav:hover {
+  scale: 1.1;
 }
