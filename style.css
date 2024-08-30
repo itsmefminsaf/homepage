@@ -85,3 +85,60 @@ body {
 .favs .fav:hover {
   scale: 1.1;
 }
+
+.clock {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  width: 300px;
+  aspect-ratio: 1;
+  background-color: #353545;
+  border-radius: 50%;
+  border: 5px solid wheat;
+  box-shadow: 0px 0px 50px 1px inset black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock .center {
+  position: absolute;
+  width: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #353545;
+  box-shadow: 0px 0px 10px black;
+}
+
+.clock .bg {
+  position: absolute;
+  width: 10px;
+  border-radius: 10px;
+  transform: translateY(-50%);
+  filter: blur(30px);
+  transition-property: rotate;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.clock .n {
+  position: absolute;
+  width: 10px;
+  border-radius: 10px;
+  transform: translateY(-50%);
+  transition-property: rotate;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.clock .n1 {
+  height: 130px;
+  background-color: red;
+}
+.clock .n2 {
+  height: 120px;
+  background-color: greenyellow;
+}
+.clock .n3 {
+  height: 100px;
+  background-color: aquamarine;
+}
