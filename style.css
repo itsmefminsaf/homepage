@@ -108,6 +108,7 @@ body {
 
 .clock .center {
   position: absolute;
+  z-index: 3;
   width: 30px;
   aspect-ratio: 1;
   border-radius: 50%;
@@ -117,6 +118,7 @@ body {
 
 .clock .bg {
   position: absolute;
+  z-index: 1;
   width: 10px;
   border-radius: 10px;
   transform: translateY(-50%);
@@ -125,6 +127,7 @@ body {
 }
 .clock .n {
   position: absolute;
+  z-index: 2;
   width: 10px;
   border-radius: 10px;
   transform: translateY(-50%);
@@ -139,4 +142,25 @@ body {
 }
 .clock .n3 {
   height: 100px;
+}
+
+.clock .numbers {
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.clock .numbers .num {
+  position: absolute;
+  width: 15px;
+  height: 30px;
+  background-color: black;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
