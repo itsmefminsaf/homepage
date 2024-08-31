@@ -9,12 +9,15 @@ const showTime = () => {
   const n3 = document.querySelectorAll(".n3");
   n1.forEach((n) => {
     n.style.rotate = `${second}deg`;
+    n.style.backgroundColor = "red";
   });
   n2.forEach((n) => {
     n.style.rotate = `${minite}deg`;
+    n.style.backgroundColor = "greenyellow";
   });
   n3.forEach((n) => {
     n.style.rotate = `${hour}deg`;
+    n.style.backgroundColor = "cyan";
   });
 };
 

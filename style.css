@@ -122,8 +122,6 @@ body {
   transform: translateY(-50%);
   filter: blur(30px);
   transition-property: rotate;
-  transition-duration: 1s;
-  transition-timing-function: linear;
 }
 .clock .n {
   position: absolute;
@@ -131,19 +129,14 @@ body {
   border-radius: 10px;
   transform: translateY(-50%);
   transition-property: rotate;
-  transition-duration: 1s;
-  transition-timing-function: linear;
 }
 
 .clock .n1 {
   height: 130px;
-  background-color: red;
 }
 .clock .n2 {
   height: 120px;
-  background-color: greenyellow;
 }
 .clock .n3 {
   height: 100px;
-  background-color: aquamarine;
 }
